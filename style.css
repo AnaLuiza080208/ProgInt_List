@@ -89,24 +89,25 @@ body {
     box-shadow: 0 4px 12px rgba(244, 143, 177, 0.7);
     color: #560027;
   }
-  
-.btn-primary {
+  .btn-primary {
     background-color: #90caf9;  
     border: none;
     color: #1e3a8a;           
     font-weight: 600;
     padding: 10px 20px;
-    border-radius: 0%;
+    border-radius: 12px; 
     box-shadow: 0 2px 8px rgba(144, 202, 249, 0.6);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
+}
   
-  .btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #64b5f6;  
     box-shadow: 0 4px 14px rgba(100, 181, 246, 0.8);
     color: #0d2c54;
     outline: none;
-  }
+}
+
 
 
   .filtros .btn {
